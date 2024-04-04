@@ -1,6 +1,6 @@
 # Speaker Classification
 
-This project focuses on the classification of speakers in speech signals. The model has achieved a remarkable accuracy rate of **97.06%** on the task, ranking in the **top 6% out of 1000 teams**.
+Performing classification of speakers in speech signals. The model has achieved a remarkable accuracy rate of **97.06%** on the task, ranking in the **top 6% out of 1000 teams**.
 
 ## Data Preprocessing
 
