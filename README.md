@@ -4,7 +4,7 @@ Performing classification of speakers in speech signals. The model has achieved 
 
 ## Data Preprocessing
 
-The original dataset utilized is [VoxCeleb](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/). Data preprocessing involved transforming it into vectors using mel-frequency cepstrum. Initially, the signal was converted into the frequency domain using Discrete Fourier Transform to obtain a spectrum. Subsequently, a filter bank, log transform, and Discrete Cosine Transform were applied to construct the vector. A window length of 128 was randomly chosen from the vectors. The processed dataset is stored [here](https://drive.google.com/file/d/1xOFUZZRlcURtqnXTg1FyftW4ztwUGQNi/view?usp=sharing).
+The original dataset utilized is [VoxCeleb](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/). Data preprocessing involved transforming it into vectors using mel-frequency spectrum. Initially, the signal was converted into the frequency domain using Discrete Fourier Transform to obtain a spectrum. Subsequently, a filter bank, log transform, and Discrete Cosine Transform were applied to construct the vector. A window length of 128 was randomly chosen from the vectors. The processed dataset is stored [here](https://drive.google.com/file/d/1xOFUZZRlcURtqnXTg1FyftW4ztwUGQNi/view?usp=sharing).
 
 ## Model Training
 
